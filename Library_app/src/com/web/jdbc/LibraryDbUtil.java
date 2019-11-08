@@ -621,15 +621,15 @@ public boolean ifBookIsIssued(String bookId, String userId) throws Exception{
 			}
 			
 			// delete from user table
-			if(returnFlag) {
-				String deleteUserFromUsersTableQuery = "delete from users where id=?";
-				
-				myStmt = myConn.prepareStatement(deleteUserFromUsersTableQuery);
-				
-				myStmt.setInt(1, id);
-				
-				myStmt.execute();
-			}
+			
+			String deleteUserFromUsersTableQuery = "delete from users where user_id=?";
+			
+			myStmt = myConn.prepareStatement(deleteUserFromUsersTableQuery);
+			
+			myStmt.setString(1, userId);
+			
+			myStmt.execute();
+			
 			
 			LOG.info("Exiting deleteUser method in LibraryDbUtil..");
 		}
