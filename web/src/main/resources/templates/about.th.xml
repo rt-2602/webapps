@@ -1,0 +1,7 @@
+<thlogic>
+    <attr sel="#head-Id"
+          th:replace="~{fragments/head :: headFragmentMakeUp}"/>
+    <attr sel="#makeUp-title" th:text="#{makeUp.title}"/>
+    <attr sel="#footerId"
+          th:replace="~{fragments/footer :: footer}"/>
+</thlogic>

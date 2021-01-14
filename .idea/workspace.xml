@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9bcfb113-3525-4f66-8b57-826bec20af9f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1huzlW5T6tRsCLjnAoQevB8OKYQ" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="debugger.stepping" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Rashmi\JAVA\Projects\Spring5\makeup-app\web\src\main\resources\templates" />
+      <recent name="C:\Rashmi\JAVA\Projects\Spring5\guess-the-number-game -new\dao\src\main\resources" />
+      <recent name="C:\Rashmi\JAVA\Projects\Spring5\guess-the-number-game -new\core\src\main\resources\config" />
+      <recent name="C:\Rashmi\JAVA\Projects\Spring5\guess-the-number-game -new\web\src\main\resources\templates\images" />
+      <recent name="C:\Rashmi\JAVA\Projects\Spring5\guess-the-number-game -new\web\src\main\resources\templates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rashmi.interceptor" />
+      <recent name="com.rashmi.dao.impl" />
+      <recent name="com.rashmi.config" />
+      <recent name="com.rashmi" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Rashmi\JAVA\Projects\Spring5\guess-the-number-game -new\dao\src\main\resources" />
+      <recent name="C:\Rashmi\JAVA\Projects\Spring5\guess-the-number-game -new\web\src\main\resources\templates" />
+      <recent name="C:\Rashmi\JAVA\Projects\Spring5\guess-the-number-game\web\src\main\resources\templates" />
+      <recent name="C:\Rashmi\JAVA\Projects\Spring5\guess-the-number-game\web\src\main\resources\templates\fragments" />
+      <recent name="C:\Rashmi\JAVA\Projects\Spring5\guess-the-number-game\web\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.WebMain">
+    <configuration name="ConsoleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rashmi.ConsoleMain" />
+      <module name="console" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rashmi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilsClassicApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rashmi.dao.utils.UtilsClassicApp" />
+      <module name="dao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rashmi.dao.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rashmi.WebMain" />
+      <module name="web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rashmi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WebMain" />
+        <item itemvalue="Application.ConsoleMain" />
+        <item itemvalue="Application.UtilsClassicApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9bcfb113-3525-4f66-8b57-826bec20af9f" name="Default Changelist" comment="" />
+      <created>1600875923376</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600875923376</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="535" y="0" width="774" height="728" key="#Project_Structure" timestamp="1601920862508">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="535" y="0" width="774" height="728" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1601920862508" />
+    <state x="424" y="348" key="#com.intellij.debugger.ui.breakpoints.BreakpointsConfigurationDialogFactory.BreakpointsConfigurationDialog.AddFieldBreakpointDialog" timestamp="1610581616800">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="424" y="348" key="#com.intellij.debugger.ui.breakpoints.BreakpointsConfigurationDialogFactory.BreakpointsConfigurationDialog.AddFieldBreakpointDialog/0.0.1366.728@0.0.1366.728" timestamp="1610581616800" />
+    <state x="773" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1610576786939">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="773" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1610576786939" />
+    <state x="405" y="211" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1610581585924">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="405" y="211" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1610581585924" />
+    <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1608655537684">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1608655537684" />
+    <state x="210" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1607636722512">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="210" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1607636722512" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1610504276501">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1610504276501" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609276441305">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1609276441305" />
+    <state x="652" y="119" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1601920711376">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="652" y="119" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1366.728@0.0.1366.728" timestamp="1601920711376" />
+    <state x="438" y="67" key="#xdebugger.evaluate" timestamp="1610056131800">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="438" y="67" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1610056131800" />
+    <state width="584" height="438" key="DebuggerActiveHint" timestamp="1610581123476">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="584" height="438" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1610581123476" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1606783600609">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1606783600609" />
+    <state x="610" y="123" key="FileChooserDialogImpl" timestamp="1609991473180">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="610" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609991473180" />
+    <state width="1323" height="128" key="GridCell.Tab.0.bottom" timestamp="1610583936773">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="128" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610583936773" />
+    <state width="1323" height="128" key="GridCell.Tab.0.center" timestamp="1610583936773">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="128" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610583936773" />
+    <state width="1323" height="128" key="GridCell.Tab.0.left" timestamp="1610583936773">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="128" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610583936773" />
+    <state width="1323" height="128" key="GridCell.Tab.0.right" timestamp="1610583936773">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="128" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610583936773" />
+    <state width="1323" height="265" key="GridCell.Tab.1.bottom" timestamp="1610581750536">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="265" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610581750536" />
+    <state width="1323" height="265" key="GridCell.Tab.1.center" timestamp="1610581750536">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="265" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1610581750536" />
+    <state width="1323" height="265" key="GridCell.Tab.1.left" timestamp="1610581750536">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="265" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1610581750536" />
+    <state width="1323" height="265" key="GridCell.Tab.1.right" timestamp="1610581750536">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="265" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1610581750536" />
+    <state x="909" y="503" width="1323" height="265" key="GridCell.Tab.2.bottom" timestamp="1610581750536">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="909" y="503" width="1323" height="265" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610581750536" />
+    <state x="909" y="503" width="1323" height="265" key="GridCell.Tab.2.center" timestamp="1610581750536">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="909" y="503" width="1323" height="265" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1610581750536" />
+    <state x="909" y="503" width="1323" height="265" key="GridCell.Tab.2.left" timestamp="1610581750536">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="909" y="503" width="1323" height="265" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1610581750536" />
+    <state x="909" y="503" width="1323" height="265" key="GridCell.Tab.2.right" timestamp="1610581750536">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="909" y="503" width="1323" height="265" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1610581750536" />
+    <state x="909" y="503" width="423" height="225" key="GridCell.Tab.3.bottom" timestamp="1603313035142">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="909" y="503" width="423" height="225" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603313035142" />
+    <state x="909" y="503" width="423" height="225" key="GridCell.Tab.3.center" timestamp="1603313035142">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="909" y="503" width="423" height="225" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1603313035142" />
+    <state x="909" y="503" width="423" height="225" key="GridCell.Tab.3.left" timestamp="1603313035142">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="909" y="503" width="423" height="225" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1603313035142" />
+    <state x="909" y="503" width="423" height="225" key="GridCell.Tab.3.right" timestamp="1603313035142">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="909" y="503" width="423" height="225" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1603313035142" />
+    <state x="174" y="0" key="SettingsEditor" timestamp="1610581628246">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="174" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1610581628246" />
+    <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1607723041641">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="691" height="372" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1607723041641" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1606783600609">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1606783600609" />
+    <state x="909" y="503" width="439" height="292" key="dock-window-1" timestamp="1606019009909">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="909" y="503" width="439" height="292" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1606019009909" />
+    <state x="909" y="503" width="439" height="292" key="dock-window-2" timestamp="1603313408541">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="909" y="503" width="439" height="292" key="dock-window-2/0.0.1366.728@0.0.1366.728" timestamp="1603313408541" />
+    <state x="390" y="97" width="585" height="624" key="find.popup" timestamp="1610226546297">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="97" width="585" height="624" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1610226546297" />
+    <state x="525" y="27" width="841" height="678" key="new project wizard" timestamp="1608708892734">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="525" y="27" width="841" height="678" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1608708892734" />
+    <state x="383" y="111" key="refactoring.ChangeSignatureDialog" timestamp="1606840648491">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="383" y="111" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1606840648491" />
+    <state x="628" y="167" width="672" height="677" key="run.anything.popup" timestamp="1610583891285">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="628" y="167" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1610583891285" />
+    <state x="680" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1610578072036">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="680" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1610578072036" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dao/src/main/java/com/rashmi/hibernatedao/impl/HibernateDaoImpl.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dao/src/main/java/com/rashmi/hibernatedao/impl/HibernateDaoImpl.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dao/src/main/java/com/rashmi/hibernatedao/impl/HibernateDaoImpl.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/com/rashmi/controller/MakeupController.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dao/src/main/java/com/rashmi/dao/impl/DaoImpl.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/com/rashmi/service/MakeUpServiceImpl.java</url>
+          <line>145</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/web/src/main/java/com/rashmi/util/AttributeNames.java</url>
+          <line>7</line>
+          <properties field="LOGIN_ERROR_MESSAGE" class="com.rashmi.util.AttributeNames" />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

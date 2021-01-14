@@ -1,0 +1,24 @@
+<thlogic>
+    <attr sel="#head-Id"
+          th:replace="~{fragments/head :: headFragmentMakeUp}"/>
+
+    <attr sel="#logout"
+          th:replace="~{fragments/logout :: logoutFragment}"/>
+
+    <!--<attr sel="#logout"
+          th:href="@{__${T(com.rashmi.util.MakeUpMappings).LOGIN}__}"
+          th:text="#{makeup.logout}"/>-->
+
+    <attr sel="#makeUp-title" th:text="#{makeUp.title}"/>
+
+    <attr sel="#contact-email" th:text="#{contact.email}"/>
+
+    <attr sel="#contact-phone" th:text="#{contact.phone}"/>
+
+    <attr sel="#back"
+          th:href="@{__${T(com.rashmi.util.MakeUpMappings).AFTER_LOGIN}__}"
+          th:text="#{makeup.back}"/>
+
+    <attr sel="#footerId"
+          th:replace="~{fragments/footer :: footer}"/>
+</thlogic>
