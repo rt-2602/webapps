@@ -1,0 +1,6 @@
+<thlogic>
+    <attr sel="#logout"
+          th:href="@{__${T(com.rashmi.util.MakeUpMappings).LOGOUT}__}"
+          th:text="#{makeup.logout}"
+          th:fragment="logoutFragment"/>
+</thlogic>

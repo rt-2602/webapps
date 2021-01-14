@@ -1,0 +1,27 @@
+<thlogic>
+    <attr sel="#head-Id"
+          th:replace="~{fragments/head :: headFragmentMakeUp}"/>
+    <attr sel="#makeUp-title" th:text="#{makeUp.title}"/>
+    <attr sel="#enter-userName" th:text="#{makeUp.enterUserName}"/>
+    <attr sel="#enter-password" th:text="#{makeUp.enterPassword}"/>
+
+    <attr sel="#error-message"
+          th:text="${__${T(com.rashmi.util.AttributeNames).LOGIN_ERROR_MESSAGE}__}"/>
+
+    <attr sel="#sessionTimedoutError"
+          th:text="${__${T(com.rashmi.util.AttributeNames).ERROR_MESSAGE_SESSION_TIMEDOUT}__}"/>
+
+    <attr sel="#login-form"
+          th:action="@{__${T(com.rashmi.util.MakeUpMappings).LOGIN}__}"/>
+    <attr sel="#submit" th:value="#{makeup.submit}"/>
+
+    <attr sel="#sign-up"
+          th:href="@{__${T(com.rashmi.util.MakeUpMappings).REGISTER_NEW_USER}__}"
+          th:text="#{makeup.registerNewUser}"/>
+
+    <attr sel="#new-user"
+          th:text="#{makeup.newUserMessage}"/>
+
+    <attr sel="#footerId"
+          th:replace="~{fragments/footer :: footer}"/>
+</thlogic>
