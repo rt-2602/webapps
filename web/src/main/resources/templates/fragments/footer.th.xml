@@ -1,5 +1,0 @@
-<thlogic>
-    <attr sel="#footerId"
-          th:fragment="footer"/>
-    <attr sel="#created-by" th:text="|#{makeup.createdBy}|"/>
-</thlogic>
