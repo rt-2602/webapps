@@ -1,0 +1,13 @@
+create table "users" with columns: user_id, should be unique
+ id, first_name, last_name, email, user_id, password
+
+create table "books" with columns:
+ id, book_name, author, number_of_copies
+
+create table "user_books" with columns:
+id, user_id, book_id, status 
+
+
+**book_id in user_books table should refer to id in books table
+
+*add books to books table from mysql

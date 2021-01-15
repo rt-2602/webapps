@@ -1,0 +1,10 @@
+
+//without constraints
+
+CREATE TABLE `library_application_db`.`books` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `book_name` VARCHAR(45) NOT NULL,
+  `author` VARCHAR(45) NOT NULL,
+  `number_of_copies` INT NOT NULL,
+  PRIMARY KEY (`id`));
+

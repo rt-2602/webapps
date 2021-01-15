@@ -1,0 +1,19 @@
+//without constraints
+
+CREATE TABLE `library_application_db`.`user_books` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `user_id` VARCHAR(45) NOT NULL,
+  `book_id` INT NOT NULL ,
+  `status` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`));
+
+
+//adding foreign key constraint for book_id column to refer to id column in books table
+
+ALTER TABLE `library_application_db`.`user_books` 
+ADD CONSTRAINT `book_id_fk`
+  FOREIGN KEY (`book_id`)
+  REFERENCES `library_application_db`.`books` (`id`)
+  ON DELETE NO ACTION
+  ON UPDATE NO ACTION;
+

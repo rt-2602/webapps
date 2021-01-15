@@ -1,0 +1,4 @@
+// Insert statement with data for creating rows in books table
+
+INSERT INTO library_application_db.books (book_name, author, number_of_copies)
+VALUES ('Harry Potter', 'J.K.Rowling', 5);

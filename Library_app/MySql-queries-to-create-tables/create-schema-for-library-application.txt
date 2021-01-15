@@ -1,0 +1,1 @@
+CREATE SCHEMA `library_application_db` ;

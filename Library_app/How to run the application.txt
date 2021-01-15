@@ -1,0 +1,6 @@
+How to run the application
+
+right click on the project, click on Run as -> run on server
+
+
+Create user account and login
