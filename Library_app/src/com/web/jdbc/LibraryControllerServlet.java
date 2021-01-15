@@ -27,6 +27,11 @@ public class LibraryControllerServlet extends HttpServlet {
 	
 	private LibraryDbUtil libraryDbUtil;
 	
+	/* jdbc details provided in context.xml
+		name any name. should be same in controller
+	   username password of your db */
+	
+	//use the name of your schema instead of library_application_db
 	@Resource(name="jdbc/library_app")
 	private DataSource dataSource;
 	
@@ -283,6 +288,9 @@ public class LibraryControllerServlet extends HttpServlet {
 		
 		LOG.info("Entering returnBook method in LibraryControllerServlet..");
 		
+		//user_history_id in books table foreign key of book_id from user_books(user issued books table). 
+		//user_history_id(basically user issued books history. Which is book_id column value referenced in user_history_id column in books table )
+		
 		String user_history_id = request.getParameter("book");
 		
 		User userDetails = (User) request.getSession().getAttribute("USER_DETAILS");
@@ -308,6 +316,7 @@ public class LibraryControllerServlet extends HttpServlet {
 		
 		LOG.info("Entering issueBook method in LibraryControllerServlet..");
 		
+		//bookId id id column in books table
 		String bookId = request.getParameter("book");
 		
 		User userDetails = (User) request.getSession().getAttribute("USER_DETAILS");
@@ -338,7 +347,8 @@ public class LibraryControllerServlet extends HttpServlet {
 		String authorName = request.getParameter("author-name");
 		
 				
-		//create new boo object
+		//create new book object
+		//theBook book to search in books table using bookName,authorName
 		Book theBook = new Book(bookName,authorName);
 		
 		LOG.info("Calling serachBook method in LibraryDbUtil from LibraryControllerServlet..");

@@ -188,6 +188,7 @@ public class LibraryDbUtil {
 			
 			myStmt = myConn.prepareStatement(checkIfBookExistsQuery);
 			
+			//theBook book to search in books table using bookName,authorName
 			
 			myStmt.setString(1, theBook.getBookName()+"%");
 			myStmt.setString(2, theBook.getAuthorName()+"%");
@@ -373,6 +374,8 @@ public boolean ifBookIsIssued(String bookId, String userId) throws Exception{
 	@SuppressWarnings("resource")
 	public boolean returnBook(String tableId, String userId) throws Exception {
 		
+		//tableId is the id column in user_books table
+		
 		LOG.info("Entering returnBook method in LibraryDbUtil for.." +userId);
 		
 		Connection myConn = null;
@@ -403,6 +406,8 @@ public boolean ifBookIsIssued(String bookId, String userId) throws Exception{
 			if (myRs.next()) {
 
 				// retrieve data from result set
+				
+				//issuedId is book_id column in user_books table which is foreign key to id column in books table
 				
 				issuedId = myRs.getInt("book_id");
 								
@@ -472,13 +477,19 @@ public boolean ifBookIsIssued(String bookId, String userId) throws Exception{
 		PreparedStatement myStmt = null;
 		ResultSet myRs = null;
 		int user_history_id = 0;
-				
+			
+		//user_history_id in books table foreign key of book_id from user_books(user issued books table). 
+		//user_history_id(basically user issued books history. Which is book_id column value referenced in user_history_id column in books table )
+		
 		try {
 			
 			// get a connection
 			myConn = dataSource.getConnection();
 			
 			// create sql statement
+			
+			//getting rows from books and user_books table where id in books table = book_id in user_books table
+			
 			String getIssuedBooksListFromUsser_booksAndBooksTableQuery = "select ub.id, b.book_name, b.author, ub.status, ub.book_id from books b, user_books ub where b.id = ub.book_id and ub.user_id = ?";
 			
 			myStmt = myConn.prepareStatement(getIssuedBooksListFromUsser_booksAndBooksTableQuery);
