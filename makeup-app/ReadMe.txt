@@ -1,6 +1,6 @@
-Makeup application
+Makeup artist application
 
-This is a web application developed using springboot, spring MVC, thymeleaf, mysql, maven.
+This is a web application developed using springboot, spring MVC, thymeleaf, mysql, maven, html, javascript. It creates a website for Makeup Artist it provides options to register new user, shows makeup artists services, rates, portfolio, contact information and options to schedule appointments and view scheduled appointments
 
 Deploy this web application on any application server.
 Access this application usin url: http://localhost:8080/login
