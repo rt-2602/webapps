@@ -1,0 +1,24 @@
+<thlogic>
+    <attr sel="#head-Id"
+          th:replace="~{fragments/head :: headFragmentMakeUp}"/>
+
+    <attr sel="#logout"
+          th:replace="~{fragments/logout :: logoutFragment}"/>
+
+    <!--<attr sel="#logout"
+          th:href="@{__${T(com.rashmi.util.MakeUpMappings).LOGOUT}__}"
+          th:text="#{makeup.logout}"/>-->
+
+    <attr sel="#bookedAppointment" th:value="${__${T(com.rashmi.util.AttributeNames).BOOKED_APPOINTMENT}__}"/>
+
+    <attr sel="#makeUp-title" th:text="#{makeUp.title}"/>
+
+    <attr sel="#booked-message" th:text="#{booked.message}"/>
+
+    <attr sel="#home"
+          th:href="@{__${T(com.rashmi.util.MakeUpMappings).AFTER_LOGIN}__}"
+          th:text="#{makeup.home}"/>
+
+    <attr sel="#footerId"
+          th:replace="~{fragments/footer :: footer}"/>
+</thlogic>

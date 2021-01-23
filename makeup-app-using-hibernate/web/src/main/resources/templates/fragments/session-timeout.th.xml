@@ -1,0 +1,5 @@
+<thlogic>
+    <attr sel="#sessionTimedoutError"
+          th:text="${__${T(com.rashmi.util.AttributeNames).ERROR_MESSAGE_SESSION_TIMEDOUT}__}"
+          th:fragment="sessionTimeoutFragment"/>/>
+</thlogic>

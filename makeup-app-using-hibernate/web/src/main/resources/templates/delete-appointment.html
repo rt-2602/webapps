@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:border-color="http://www.w3.org/1999/xhtml">
+<head id="head-Id">
+    <meta charset="UTF-8">
+    <title>Make up Artist</title>
+</head>
+<body style="background-color:#ffffcc;">
+
+<div align ="right">
+    <a id="logout"></a>
+</div>
+
+<!--<div align="right">
+    <a id="logout" style="color:green">
+        Logout
+    </a>
+</div>-->
+
+<form id="delete-appointment-form"
+      name="delete-appointment-form"
+      action= "delete-appointment"
+      onsubmit="return validateForm()"
+      method="post">
+
+
+<input type="hidden" id="bookedAppointments" value="">
+
+<div align="center">
+    <h1 id="makeUp-title" style="color:#cc3300">Make up Artist</h1>
+
+    <h3 id="no-booked-appointments-message" style="color:red"></h3>
+
+    <h2 id="appointment-deleted-message" style="color:#e60000"></h2>
+
+    <h4 style="color:gold">
+        <table style="width: auto; " border="1" border-color: red>
+            <tr style="color:purple">
+
+                <th>Scheduled Date</th>
+
+                <th>Appointment Time</th>
+
+                <th>Appointment Type</th>
+
+                <th>Guest make-up</th>
+
+                <th>Name </th>
+
+                <th>Phone number </th>
+
+                <th>Number of guests</th>
+
+                <th>Cancel Appointment</th>
+
+            </tr>
+
+            <tr th:each="bookedAppointment: ${bookedAppointments}" style="color:orange">
+
+                <td th:text="${bookedAppointment.appointmentDate}"></td>
+
+                <td th:text="${bookedAppointment.appointmentTime}"></td>
+
+                <td th:text="${bookedAppointment.typeOfAppointment}"></td>
+
+                <td th:text="${bookedAppointment.guestMakeupRequired}"></td>
+
+                <td th:text="${bookedAppointment.customerName}"></td>
+
+                <td th:text="${bookedAppointment.phoneNumber}"></td>
+
+                <td th:text="${bookedAppointment.numberOfGuests}"></td>
+
+                <!--<form th:object="${address}" method="post">
+                <li th:each="destinationAddress : ${destinationAddresses}">
+                <input type="radio" th:field="${address.destinationAddressId}" th:value="${destinationAddress.destinationAddressId}" />
+                <label th:for="${destinationAddress.destinationAddressId}" th:text="${destinationAddress}"></label>-->
+
+                <td >
+                    <!-- th:object="${bookedAppointment}"
+                    <input type="radio" th:field="${bookedAppointment.id}" th:value="${bookedAppointment.id}" />
+                    <label th:for="${bookedAppointment.id}" th:text="${deleteAppointmentId}"></label>-->
+
+                <input type="radio" id="id" name="id" th:value= "${bookedAppointment.id}"
+                       checked="checked">
+                <label for="id"></label> <br> <br>
+                </td>
+
+            </tr>
+        </table>
+
+    </h4>
+
+    <h2><input id="delete" type="submit" value="Delete" style="color:green"/></h2>
+    <!--<h3>
+        <a id="delete" style="color:#669900">
+            Delete Appointment
+        </a>
+    </h3>-->
+
+    <h3>
+        <a id="home" style="color:#669900">
+            Home
+        </a>
+    </h3>
+
+    <footer id="footerId" style="color:pink">
+        <p>Created by goes here</p>
+    </footer>
+</div>
+</form>
+</body>
+</html>

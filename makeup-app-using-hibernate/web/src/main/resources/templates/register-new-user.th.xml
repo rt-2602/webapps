@@ -1,0 +1,25 @@
+<thlogic>
+    <attr sel="#head-Id"
+          th:replace="~{fragments/head :: headFragmentMakeUp}"/>
+    <attr sel="#makeUp-title" th:text="#{makeUp.title}"/>
+
+    <attr sel="#error-message"
+          th:text="${__${T(com.rashmi.util.AttributeNames).REGISTER_ERROR_MESSAGE}__}"/>
+    <attr sel="#register-form"
+          th:action="@{__${T(com.rashmi.util.MakeUpMappings).REGISTER_NEW_USER}__}"/>
+    <attr sel="#enter-firstName" th:text="#{makeUp.enter.firstName}" />
+    <attr sel="#enter-lastName" th:text="#{makeUp.enter.lastName}" />
+    <attr sel="#enter-userName" th:text="#{makeUp.enter.userName}" />
+    <attr sel="#enter-password" th:text="#{makeUp.enter.password}" />
+    <attr sel="#submit" th:value="#{game.submit}"/>
+
+    <attr sel="#back"
+          th:href="@{__${T(com.rashmi.util.MakeUpMappings).LOGIN}__}"
+          th:text="#{makeup.back}"/>
+
+    <attr sel="#sign-up"
+          th:href="@{__${T(com.rashmi.util.MakeUpMappings).SIGN_UP}__}"
+          th:text="#{makeup.signup}"/>
+    <attr sel="#footerId"
+          th:replace="~{fragments/footer :: footer}"/>
+</thlogic>
