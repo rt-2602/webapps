@@ -1,0 +1,17 @@
+To run this application 
+
+  - Deploy this web application on any application server.
+
+  - Create the database and tables in mysql, using the queries in the text file "Queries and steps to create schema(database) and tables in mysql workbench.txt". 
+
+  - add database username, password in (DataSource.config, organization.properties)
+
+  - Maven clean, install
+  - run web main
+  - keep mysql running
+
+  - Access this application using url: http://localhost:8080/login
+
+  - sign-up with your own username and password and login.
+
+  - to get all appointments- use admin, admin
