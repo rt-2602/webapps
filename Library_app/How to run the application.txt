@@ -1,6 +1,15 @@
-How to run the application
+To run this application 
 
-right click on the project, click on Run as -> run on server
+ - Create the database tables using mySql queries in the folder
 
+ - Add your db username password in context.xml
 
-Create user account and login
+ - Add data to books table
+
+ - Deploy this application on any application server
+
+ - right click on the project, click on Run as -> run on server
+
+ - Access the aplication using the url - http://localhost:8080/Library_app/LibraryControllerServlet
+
+ - Create new account and login using your credentials
