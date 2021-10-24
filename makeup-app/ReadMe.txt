@@ -7,7 +7,7 @@ To run this application
 
   - Create the database and tabels in mysql, using the queries in the text file "Queries and steps to create schema(database) and tables in mysql workbench.txt". 
 
-  - Access this application usin url: http://localhost:8080/login
+  - Access this application using url: http://localhost:8080/login
 
   - sign-up with your own username and password and login.
   
