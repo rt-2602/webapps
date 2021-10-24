@@ -1,4 +1,4 @@
-Queries and steps to create schema and tables in mysql workbench
+Queries and steps to create schema and tables in mysql 
 
 1)To create schema(database) run the query below
 
