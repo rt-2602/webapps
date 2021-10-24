@@ -8,7 +8,7 @@ This application is similar to Makeup artist application. Have used hiberanate i
 To run this application 
   - Deploy this web application on any application server.
 
-  - Create the database and tabels in mysql, using the queries in the text file "Queries and steps to create schema(database) and tables in mysql workbench.txt". 
+  - Create the database and tabels in mysql, using the queries in the text file "Database queries.txt". 
 
   - Access this application using url: http://localhost:8080/login
 
