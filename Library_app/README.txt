@@ -7,7 +7,7 @@ Add your db username password in context.xml
 
 Add data to books table
 
-Deploy this application on any applicayion server
+Deploy this application on any application server
 Access the aplication using the url - http://localhost:8080/Library_app/LibraryControllerServlet
 
 Create new account and login using your credentials
