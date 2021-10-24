@@ -1,1 +1,0 @@
-CREATE SCHEMA `makeup_artist_application_db` ;
