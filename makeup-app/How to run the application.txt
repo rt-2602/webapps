@@ -1,0 +1,13 @@
+Maven clean, install
+run web main
+keep mysql running
+
+add database username, password in
+(DataSource.config, organization.properties)
+
+
+hit url http://localhost:8080/login
+
+login with  or sign up and login
+
+to get all appointments- use admin, admin
