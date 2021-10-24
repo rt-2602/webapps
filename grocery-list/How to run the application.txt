@@ -1,0 +1,8 @@
+To run this application 
+
+ - Maven clean, install
+ - run the application
+
+ hit url http://localhost:8080/grocery-list/items
+
+ add, delete, edit items
