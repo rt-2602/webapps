@@ -1,8 +1,17 @@
 To run this application 
 
- - Maven clean, install
- - run the application
+ Maven clean, install
 
- hit url http://localhost:8080/grocery-list/items
+Create maven build using templates.
+    - go to run- edit configurations
+    - select maven
+    - click on +
+    - select maven
+    - give a  name, example- grocery-list [cargo:run]
+    - in working directory: give the location of the project
+    - in command line: put this line - clean install cargo:run -f pom.xml
+    - run the application
 
- add, delete, edit items
+hit url http://localhost:8080/grocery-list/items
+
+add, delete, edit items
